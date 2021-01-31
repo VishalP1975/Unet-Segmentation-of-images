@@ -15,6 +15,8 @@ This model is trained for 50 epochs. I have trained on 40 images and validate on
 
 Prediction:
 The real images were captured on the glass panels of oven using illuminations Final stage involves the prediction real images using the trained model on synthetically created images. The results are shown below and looks satisfactory. 
+
+
 **I have to increase the contrast on the predicted defects to visualize it clearly.
 
 Reference:
