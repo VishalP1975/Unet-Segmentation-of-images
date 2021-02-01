@@ -23,3 +23,4 @@ Reference:
 https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47
 
 Result:
+<img width="336" alt="Results" src="https://user-images.githubusercontent.com/77510506/106403204-ae915c80-642d-11eb-87ed-348aacded546.PNG">
