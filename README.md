@@ -1,5 +1,5 @@
 # Unet-Segmentation-of-images
-My main task is to segment the surface defects present on a glass panel of oven. In this code I mainly focused on the line, points and scratches that can be present on a surface. 
+I try to segment the surface defects present on a glass panel of oven. In this code I mainly focused on the line, points and scratches that can be present on a surface. 
 
 Dataset:
 For training a convolutional neural network enough data is not available. So, I created a synthetic images randomly which contains lines and point defects along with their masks.
