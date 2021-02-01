@@ -18,7 +18,8 @@ The real images were captured on the glass panels of oven using illuminations Fi
 
 Result:
 **I have to increase the contrast on the predicted defects to visualize it clearly.
-<img width="336" alt="Results" src="https://user-images.githubusercontent.com/77510506/106403204-ae915c80-642d-11eb-87ed-348aacded546.PNG">
+
+![result](https://user-images.githubusercontent.com/77510506/106403365-95d57680-642e-11eb-9208-6e843f262142.JPG)
 
 
 Reference:
