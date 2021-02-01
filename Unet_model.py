@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
 
 
 import os
@@ -25,9 +21,6 @@ from keras.optimizers import Adam
 from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
 
 
-# In[2]:
-
-
 #defining the convolution layers
 def conv2d_block(input_tensor, n_filters, kernel_size = 3, batchnorm = True):
     """Function to add 2 convolutional layers with the parameters passed to it"""
@@ -45,9 +38,6 @@ def conv2d_block(input_tensor, n_filters, kernel_size = 3, batchnorm = True):
     #x = Activation('relu')(x)
     
     return x
-
-
-# In[3]:
 
 
 #defining the Unet model with encoder and decoder
@@ -82,10 +72,5 @@ def unet(input_img, n_filters = 16, dropout = 0.1, batchnorm = True):
     outputs = Conv2D(1, (1, 1), activation='sigmoid')(c9)
     model = Model(inputs=[input_img], outputs=[outputs])
     return model
-
-
-# In[ ]:
-
-
 
 
