@@ -14,7 +14,7 @@ I have used a U-Net architecture, it is a CNN architecture for fast and precise 
  I have trained on 40 images and validate on 10 images i.e., split ratio of 0.2. I used binary cross entropy loss function and model is trained for 50 epochs..
 
 ## Prediction:
-The real images were captured on the glass panels of oven using illuminations. Final stage involves the prediction real images using the trained model on synthetically created images. The results are shown below and looks satisfactory. 
+The real images were captured on the glass panels of oven using illuminations. Final stage involves the prediction on real images using the trained model on synthetically created images. The results are shown below and looks satisfactory. 
 
 Result:
 **I have to increase the contrast on the predicted defects to visualize it clearly.
