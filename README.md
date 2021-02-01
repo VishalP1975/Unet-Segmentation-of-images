@@ -1,7 +1,7 @@
 # Unet-Segmentation-of-images
 This project is basically Generation and Segmentation of synthetic data for surface Inspection on glass panels of Oven and prediction on real Images. In this code I mainly focused on the line, points and scratches that can be present on a surface. 
 
-Dataset:
+## Dataset:
 For training a convolutional neural network enough data is not available. So, I created a synthetic images randomly which contains lines and point defects along with their masks.
 X_train & y_train are training images with their masks.
 X_valid & y_valid are validation images with their masks.
